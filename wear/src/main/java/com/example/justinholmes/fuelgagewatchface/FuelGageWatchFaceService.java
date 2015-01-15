@@ -44,6 +44,7 @@ public class FuelGageWatchFaceService extends CanvasWatchFaceService {
         public static final String COLOR_NAME_DEFAULT_AND_AMBIENT_BACKGROUND = "Black";
         public static final double DEGREES_PER_MINUTE = 0.45    ;
         public static final int INITAL_Y_OFFSET_TO_SET_ZERO = 58;
+        public static final int NUMBER_OFFSET_PER_DIGIT = 41;
 
         public  final int COLOR_VALUE_DEFAULT_AND_AMBIENT_BACKGROUND =
                 parseColor(COLOR_NAME_DEFAULT_AND_AMBIENT_BACKGROUND);
@@ -148,6 +149,7 @@ public class FuelGageWatchFaceService extends CanvasWatchFaceService {
                             .BACKGROUND_VISIBILITY_INTERRUPTIVE)
                     .setShowSystemUiTime(false)
                     .setShowUnreadCountIndicator(false)
+                    .setViewProtection(WatchFaceStyle.PROTECT_WHOLE_SCREEN)
                     .build());
 
              /* allocate an object to hold the time */
@@ -268,13 +270,13 @@ public class FuelGageWatchFaceService extends CanvasWatchFaceService {
             canvas.drawRect(0, 0, bounds.width(), bounds.height(), mBackgroundPaint);
 
             //Hour 1
-            canvas.drawBitmap(mLightNumberBitmap, bounds.width()/2 - HOUR_OFFSET_TENS, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO - (41 * hoursArray[0]), mFilterBitmapPaint);
+            canvas.drawBitmap(mLightNumberBitmap, bounds.width()/2 - HOUR_OFFSET_TENS + 2, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO - (NUMBER_OFFSET_PER_DIGIT * hoursArray[0]), mFilterBitmapPaint);
             //Hour 2
-            canvas.drawBitmap(mLightNumberBitmap, bounds.width()/2 - 27, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO - (41 * hoursArray[1]), mFilterBitmapPaint);
+            canvas.drawBitmap(mLightNumberBitmap, bounds.width()/2 - 27, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO - (NUMBER_OFFSET_PER_DIGIT * hoursArray[1]), mFilterBitmapPaint);
             //Minute 1
-            canvas.drawBitmap(mLightNumberBitmap, bounds.width()/2 - 1, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO - (41 * minutesArray[0]), mFilterBitmapPaint);
+            canvas.drawBitmap(mLightNumberBitmap, bounds.width()/2 - 1, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO - (NUMBER_OFFSET_PER_DIGIT * minutesArray[0]), mFilterBitmapPaint);
             //Minute 2
-            canvas.drawBitmap(mDarkNumberBitmap, bounds.width()/2 + 24, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO  - (41 * minutesArray[1]), mFilterBitmapPaint);
+            canvas.drawBitmap(mDarkNumberBitmap, bounds.width()/2 + 24, bounds.height()/2 + INITAL_Y_OFFSET_TO_SET_ZERO  - (NUMBER_OFFSET_PER_DIGIT * minutesArray[1]), mFilterBitmapPaint);
 
 
 
@@ -332,7 +334,7 @@ public class FuelGageWatchFaceService extends CanvasWatchFaceService {
                     angle = -135;
                 }else{
                     hour = hour - 13;
-                    angle =  (hour * -DEGREES_PER_HOUR) + ((60 - minute) * -DEGREES_PER_MINUTE);
+                    angle =  (hour * -DEGREES_PER_HOUR) + (minute * -DEGREES_PER_MINUTE);
                 }
             }else{
                 Log.d("computeFuelAngle", " hour < 13 ");
