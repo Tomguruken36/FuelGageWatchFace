@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/justin.holmes/Development/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-b51b0898a571e2a1dbddf127e006a708b0a55902.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-c1817ac2f16c33a98f857a60e60826918aaf21b8.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/Development/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-cc8906bf9eadd0ad7025e3e8f5ca1895fbe64c63.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6384c6cd674a22610b932d9464aa6938d067f285">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-e7b48fade61bd919a24e16f0d9a688d484059a28.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-4d7e0f886688c20e196e11bf20eba3ee3c6b9a6b.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-075bdc75203ef1a847692fc9edaedce681e018bf.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6384c6cd674a22610b932d9464aa6938d067f285">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/pre-dexed/debug/classes-05ad58670ff1dc68391061ae50ea7506fd9becb5.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/pre-dexed/debug/classes-e9446b09ee12717536a521fd59cbb6a90a788f97.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b8cbd2313272f514ea8c8c7e6972c5899251198e.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/pre-dexed/debug/classes-38c2d306f7e7cbd59ee730bbfb34b61db83943e1.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/pre-dexed/debug/classes-8c235e3c42a907c25d1bffb8ed26ed57a088f137.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-cf892c2917f670fcb467bf302047e0c0206eca88.jar" />
+    </item>
+    <item
+        jar="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/justin.holmes/git/FuelGageWatchFace/wear/build/intermediates/pre-dexed/debug/classes-e8ac27eb3f4dd8f50d4df1aa23edbf6b0a56bba5.jar" />
+    </item>
+
+</items>

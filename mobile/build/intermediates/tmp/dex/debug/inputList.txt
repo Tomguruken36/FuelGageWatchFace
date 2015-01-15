@@ -1,0 +1,7 @@
+/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/classes/debug
+/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-b51b0898a571e2a1dbddf127e006a708b0a55902.jar
+/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-e7b48fade61bd919a24e16f0d9a688d484059a28.jar
+/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b8cbd2313272f514ea8c8c7e6972c5899251198e.jar
+/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-cf892c2917f670fcb467bf302047e0c0206eca88.jar
+/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-075bdc75203ef1a847692fc9edaedce681e018bf.jar
+/Users/justin.holmes/git/FuelGageWatchFace/mobile/build/intermediates/pre-dexed/debug/classes-4d7e0f886688c20e196e11bf20eba3ee3c6b9a6b.jar
